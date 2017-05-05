@@ -20,6 +20,10 @@ function boton(){//función principal que al accionar click ase activa.
 			}
 		}
 
+
+var select1 = document.getElementById("pikac").value;//se trae select.
+var select2 = document.getElementById("charma").value;
+
 }
 
 
