@@ -29,6 +29,7 @@ var char = new Pokemon(select2, "rojo", 20);
 
 var respuesta = document.getElementById("res");//donde se mostrará el resultado de la batalla.
 respuesta.innerHTML = "Pokémon " + pik.nombre + " atacó a Pokémon " + char.nombre + " y pokémon " + char.nombre + " tiene " + char.vida + " de vida restante.";
+respuesta.innerHTML = "Pokémon " + char.nombre + " atacó a Pokémon " + pik.nombre + " y pokémon " + pik.nombre + " tiene " + pik.vida + " de vida restante.";
 
 }
 
